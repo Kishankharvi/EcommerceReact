@@ -19,7 +19,7 @@ const ProductDetail = () => {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const productData = await getProduct(id)
+        const productData = await getProduct(id) 
         if (productData) {
           setProduct(productData)
         } else {
